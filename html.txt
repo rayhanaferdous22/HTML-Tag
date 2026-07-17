@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All HTML Tags Example</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <!-- Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <!-- Paragraph & Formatting -->
+    <p>This is a <b>Bold</b>, <i>Italic</i>, <u>Underline</u>,
+    <strong>Strong</strong>, <em>Emphasized</em>, <mark>Highlighted</mark>,
+    H<sub>2</sub>O, x<sup>2</sup>.</p>
+
+    <hr>
+
+    <!-- Link -->
+    <a href="https://www.google.com">Visit Google</a>
+
+    <br><br>
+
+    <!-- Image -->
+    <img src="images.jpg" alt="Image" width="200">
+
+    <hr>
+
+    <!-- Lists -->
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+    </dl>
+
+    <hr>
+
+    <!-- Table -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Department</th>
+        </tr>
+
+        <tr>
+            <td>Rayhana</td>
+            <td>22103197</td>
+            <td>CSE</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Form -->
+    <form>
+
+        Name:
+        <input type="text"><br><br>
+
+        Password:
+        <input type="password"><br><br>
+
+        Email:
+        <input type="email"><br><br>
+
+        Number:
+        <input type="number"><br><br>
+
+        Date:
+        <input type="date"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        Skills:
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+
+        <br><br>
+
+        Department:
+        <select>
+            <option>CSE</option>
+            <option>BBA</option>
+            <option>EEE</option>
+        </select>
+
+        <br><br>
+
+        About Yourself:<br>
+        <textarea rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <hr>
+
+    <!-- Semantic Tags -->
+    <header>
+        <h2>Website Header</h2>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h3>Section</h3>
+            <p>This is a section.</p>
+        </section>
+
+        <article>
+            <h3>Article</h3>
+            <p>This is an article.</p>
+        </article>
+
+        <aside>
+            Sidebar Content
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <!-- Multimedia -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+
+    <video width="300" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <hr>
+
+    <!-- Figure -->
+    <figure>
+        <img src="images.jpg" width="150">
+        <figcaption>Sample Image</figcaption>
+    </figure>
+
+    <hr>
+
+    <!-- Other Tags -->
+    <details>
+        <summary>Click Here</summary>
+        <p>This is hidden text.</p>
+    </details>
+
+    <br>
+
+    <progress value="70" max="100"></progress>
+
+    <br><br>
+
+    <meter value="0.8">80%</meter>
+
+    <br><br>
+
+    <code>printf("Hello World");</code>
+
+    <pre>
+This is
+Preformatted
+Text
+    </pre>
+
+    <blockquote>
+        This is a blockquote.
+    </blockquote>
+
+    <q>Short quotation.</q>
+
+    <br><br>
+
+    <abbr title="HyperText Markup Language">HTML</abbr>
+
+    <br><br>
+
+    <address>
+        Gazipur, Bangladesh
+    </address>
+
+    <br>
+
+    <time>10:30 AM</time>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2026</p>
+    </footer>
+
+</body>
+</html>
